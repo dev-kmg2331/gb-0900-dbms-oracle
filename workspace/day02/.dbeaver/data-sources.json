@@ -1,0 +1,70 @@
+{
+	"folders": {},
+	"connections": {
+		"oracle_thin-185c762ff3f-2b02d166e92b562e": {
+			"provider": "oracle",
+			"driver": "oracle_thin",
+			"name": "localhost",
+			"save-password": true,
+			"configuration": {
+				"host": "localhost",
+				"port": "1521",
+				"database": "XE",
+				"url": "jdbc:oracle:thin:@//localhost:1521/XE",
+				"configurationType": "MANUAL",
+				"home": "C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-connection-type@": "BASIC",
+					"@dbeaver-sid-service@": "SERVICE"
+				},
+				"auth-model": "oracle_native"
+			}
+		}
+	},
+	"virtual-models": {
+		"oracle_thin-185c762ff3f-2b02d166e92b562e": {
+			"HR": {
+				":TBL_STUDENT": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202301191118\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"oracle_thin-185c762ff3f-2b02d166e92b562e\"\u003e\u003centity id\u003d\"1\" name\u003d\"TBL_STUDENT\" fq-name\u003d\"HR.TBL_STUDENT\" order\u003d\"0\" color-bg\u003d\"255,128,64\" border-width\u003d\"3\" x\u003d\"456\" y\u003d\"234\"\u003e\u003cpath name\u003d\"HR\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations/\u003e\u003c/diagram\u003e"
+						}
+					}
+				},
+				":TBL_FLOWER": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202301191332\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"oracle_thin-185c762ff3f-2b02d166e92b562e\"\u003e\u003centity id\u003d\"1\" name\u003d\"TBL_FLOWER\" fq-name\u003d\"HR.TBL_FLOWER\" order\u003d\"0\" color-bg\u003d\"255,128,64\" x\u003d\"524\" y\u003d\"232\"\u003e\u003cpath name\u003d\"HR\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"TBL_POT\" fq-name\u003d\"HR.TBL_POT\" order\u003d\"1\" x\u003d\"338\" y\u003d\"215\"\u003e\u003cpath name\u003d\"HR\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"FK_POT_FLOWER\" fq-name\u003d\"HR.TBL_POT.FK_POT_FLOWER\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"2\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"
+						}
+					}
+				},
+				":TBL_PET": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202301191509\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"oracle_thin-185c762ff3f-2b02d166e92b562e\"\u003e\u003centity id\u003d\"1\" name\u003d\"TBL_PET\" fq-name\u003d\"HR.TBL_PET\" order\u003d\"0\" color-bg\u003d\"255,128,64\" x\u003d\"250\" y\u003d\"254\"\u003e\u003cpath name\u003d\"HR\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"TBL_PARENT\" fq-name\u003d\"HR.TBL_PARENT\" order\u003d\"1\" x\u003d\"481\" y\u003d\"140\"\u003e\u003cpath name\u003d\"HR\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"3\" name\u003d\"TBL_PET_TYPE\" fq-name\u003d\"HR.TBL_PET_TYPE\" order\u003d\"2\" x\u003d\"489\" y\u003d\"349\"\u003e\u003cpath name\u003d\"HR\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"FK_PET_PARENT\" fq-name\u003d\"HR.TBL_PET.FK_PET_PARENT\" type\u003d\"fk\" pk-ref\u003d\"2\" fk-ref\u003d\"1\"/\u003e\u003crelation name\u003d\"FK_PET_TYPE_CODE\" fq-name\u003d\"HR.TBL_PET.FK_PET_TYPE_CODE\" type\u003d\"fk\" pk-ref\u003d\"3\" fk-ref\u003d\"1\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"
+						}
+					}
+				},
+				":TBL_PARENT": {
+					"properties": {
+						"erd.diagram.state": {
+							"serialized": "\u003cdiagram version\u003d\"1\" name\u003d\"empty\" time\u003d\"202301191503\"\u003e\u003centities\u003e\u003cdata-source id\u003d\"oracle_thin-185c762ff3f-2b02d166e92b562e\"\u003e\u003centity id\u003d\"1\" name\u003d\"TBL_PARENT\" fq-name\u003d\"HR.TBL_PARENT\" order\u003d\"0\" color-bg\u003d\"255,128,64\" x\u003d\"61\" y\u003d\"58\"\u003e\u003cpath name\u003d\"HR\"/\u003e\u003c/entity\u003e\u003centity id\u003d\"2\" name\u003d\"TBL_PET\" fq-name\u003d\"HR.TBL_PET\" order\u003d\"1\" x\u003d\"288\" y\u003d\"41\"\u003e\u003cpath name\u003d\"HR\"/\u003e\u003c/entity\u003e\u003c/data-source\u003e\u003c/entities\u003e\u003crelations\u003e\u003crelation name\u003d\"FK_PET_PARENT\" fq-name\u003d\"HR.TBL_PET.FK_PET_PARENT\" type\u003d\"fk\" pk-ref\u003d\"1\" fk-ref\u003d\"2\"/\u003e\u003c/relations\u003e\u003c/diagram\u003e"
+						}
+					}
+				}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false,
+			"auto-close-transactions": false
+		}
+	}
+}
