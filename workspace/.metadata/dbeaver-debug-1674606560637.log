@@ -1,0 +1,101 @@
+2023-01-25 08:54:59.038 - DBeaver 22.3.2.202301060755 is starting
+2023-01-25 08:54:59.039 - OS: Windows 10 10.0 (amd64)
+2023-01-25 08:54:59.039 - Java version: 11.0.12 by Eclipse Foundation (64bit)
+2023-01-25 08:54:59.039 - Install path: 'C:\GB_0900_KMG\dbms\oracle\resource\dbeaver'
+2023-01-25 08:54:59.039 - Instance path: 'file:/C:/GB_0900_KMG/dbms/oracle/workspace/'
+2023-01-25 08:54:59.039 - Memory available 64Mb/1024Mb
+2023-01-25 08:54:59.049 - Create display
+2023-01-25 08:54:59.189 - Initializing DBeaver 22.3.2
+2023-01-25 08:54:59.189 - Host plugin: org.jkiss.dbeaver.ui.app.standalone 22.3.2.202301060755
+2023-01-25 08:54:59.194 - Initialize desktop platform...
+2023-01-25 08:54:59.409 - BounceCastle bundle found. Use JCE provider BC
+> Start Core File Systems [org.eclipse.core.filesystem 1.9.500.v20220817-1539]
+> Start Core Resource Management [org.eclipse.core.resources 3.18.100.v20221025-2047]
+> Start DBeaver UI Navigator [org.jkiss.dbeaver.ui.navigator 1.0.97.202301060755]
+> Start 팀 지원 핵심 [org.eclipse.team.core 3.9.600.v20220902-2219]
+2023-01-25 08:54:59.678 - Initialize base platform...
+> Start Expression Language [org.eclipse.core.expressions 3.8.200.v20220613-1047]
+2023-01-25 08:54:59.708 - Platform initialized (514ms)
+> Start DBeaver UI Editors - Base [org.jkiss.dbeaver.ui.editors.base 1.0.97.202301060755]
+2023-01-25 08:54:59.730 - Starting RMI server at 50118
+2023-01-25 08:54:59.950 - Run workbench
+> Start Eclipse e4 작업영역 SWT [org.eclipse.e4.ui.workbench.swt 0.16.700.v20221024-2137]
+> Start Eclipse Application Services [org.eclipse.e4.core.services 2.3.400.v20220915-1347]
+> Start Eclipse UI Application Services [org.eclipse.e4.ui.services 1.5.100.v20221024-2137]
+> Start Eclipse e4 Progress View [org.eclipse.e4.ui.progress 0.3.600.v20221024-2137]
+> Start EMF XML/XMI Persistence [org.eclipse.emf.ecore.xmi 2.17.0.v20220817-1334]
+> Start Eclipse CSS SWT Theme Support [org.eclipse.e4.ui.css.swt.theme 0.13.200.v20221024-2137]
+> Start Eclipse e4 작업영역 기능 추가 [org.eclipse.e4.ui.workbench.addons.swt 1.4.500.v20221028-0801]
+> Start Eclipse e4 작업영역 SWT 렌더러 [org.eclipse.e4.ui.workbench.renderers.swt 0.15.700.v20221024-2137]
+> Start Eclipse Bindings Support [org.eclipse.e4.ui.bindings 0.13.200.v20221024-2137]
+> Start Eclipse Dependency Injection Extensions [org.eclipse.e4.core.di.extensions 0.17.200.v20220613-1008]
+> Start Eclipse CSS SWT Support [org.eclipse.e4.ui.css.swt 0.14.700.v20221102-0748]
+> Start DBeaver UI [org.jkiss.dbeaver.ui 5.1.112.202301060755]
+> Start Java Native Access [com.sun.jna 5.12.1.v20221103-2317]
+Warning: NLS unused message: BlockedJobsDialog_UserInterfaceTreeElement in: org.eclipse.ui.internal.progress.messages
+2023-01-25 08:55:02.059 - Configure workbench window
+> Start 도움말 시스템 코어 [org.eclipse.help 3.9.100.v20210721-0601]
+2023-01-25 08:55:02.209 - Create actions
+2023-01-25 08:55:02.219 - Disable Eclipse action set 'org.eclipse.ui.edit.text.actionSet.annotationNavigation'
+2023-01-25 08:55:02.219 - Disable Eclipse action set 'org.eclipse.ui.WorkingSetActionSet'
+2023-01-25 08:55:02.219 - Disable Eclipse action set 'org.eclipse.ui.actionSet.openFiles'
+2023-01-25 08:55:02.735 - Initialize workbench window
+2023-01-25 08:55:02.745 - Finish initialization
+> Start 기본 문서 편집기 [org.eclipse.ui.editors 3.14.400.v20220730-1844]
+> Start 텍스트 편집기 프레임워크 [org.eclipse.ui.workbench.texteditor 3.16.600.v20220809-1658]
+> Start DBeaver UI Editors - Data [org.jkiss.dbeaver.ui.editors.data 1.0.97.202301060755]
+> Start DBeaver SQL Model [org.jkiss.dbeaver.model.sql 1.0.87.202301060755]
+Warning: NLS unused message: actions_navigator__objects in: org.jkiss.dbeaver.ui.editors.sql.internal.SQLEditorMessages
+> Start DBeaver UI Editors - SQL [org.jkiss.dbeaver.ui.editors.sql 1.0.97.202301060755]
+> Start 핵심 비교 지원 [org.eclipse.compare.core 3.7.100.v20220812-1406]
+> Start Equinox Java Authentication and Authorization Service (JAAS) [org.eclipse.equinox.security 1.3.1000.v20220801-1135]
+> Start 인터넷 연결 관리 사용자 인터페이스 [org.eclipse.ui.net 1.4.100.v20220812-1406]
+> Start Internet Connection Management [org.eclipse.core.net 1.4.0.v20220813-1037]
+> Start DBeaver Sample Database [org.jkiss.dbeaver.ext.sample.database 1.0.134.202301060755]
+> Start DBeaver Tip of the day [org.jkiss.dbeaver.ext.ui.tipoftheday 1.0.103.202301060755]
+> Start Draw2d [org.eclipse.draw2dl 3.12.100.20221221122425]
+> Start GEF3 GEF (MVC) [org.eclipse.gef3 3.12.100.20221221122425]
+> Start DBeaver ERD UI [org.jkiss.dbeaver.erd.ui 3.0.57.202301060755]
+> Start DBeaver ERD Model [org.jkiss.dbeaver.erd.model 1.0.57.202301060755]
+2023-01-25 08:55:05.270 - Total database drivers: 101 (101)
+> Start 콘솔 [org.eclipse.ui.console 3.11.400.v20221012-0524]
+Warning: NLS unused message: InputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+Warning: NLS unused message: OutputStreamMonitor_label in: org.eclipse.debug.internal.core.DebugCoreMessages
+> Start 디버그 핵심 [org.eclipse.debug.core 3.20.0.v20220811-0741]
+Warning: NLS unused message: pref_page_database_resultsets_group_image in: org.jkiss.dbeaver.ui.editors.data.internal.DataEditorsResources
+2023-01-25 08:55:06.244 - Connect with 'localhost' (oracle_thin-185cc836747-3091ae90fec04193)
+> Start DBeaver Oracle Support [org.jkiss.dbeaver.ext.oracle 2.1.182.202301060755]
+2023-01-25 08:55:06.300 - Execution context opened (localhost; Main; 0)
+2023-01-25 08:55:06.909 - Execution context opened (localhost; Metadata; 1)
+2023-01-25 08:55:07.029 - Connected (oracle_thin-185cc836747-3091ae90fec04193, Oracle JDBC driver [11.2.0.2.0])
+2023-01-25 08:55:07.039 - Execution context opened (localhost; SQLEditor <day03.sql>; 2)
+2023-01-25 08:55:07.669 - Open [https://dbeaver.io/product/version.xml]
+2023-01-25 08:55:47.640 - Cannot determine transaction isolation level due to connection hanging. Setting to NONE.
+2023-01-25 08:56:13.229 - Table 'd2' not found in metadata catalog
+2023-01-25 08:56:13.229 - Table 'd2' not found in metadata catalog
+> Start ICU4J Base [com.ibm.icu.base 58.2.0.v20170418-1837]
+> Start DBeaver Oracle UI [org.jkiss.dbeaver.ext.oracle.ui 1.0.84.202301060755]
+2023-01-25 09:11:37.602 - Table 'd2' not found in metadata catalog
+2023-01-25 09:11:37.602 - Table 'd2' not found in metadata catalog
+2023-01-25 09:24:30.392 - Table 'd2' not found in metadata catalog
+2023-01-25 09:24:30.392 - Table 'd2' not found in metadata catalog
+> Start DBeaver UI Editors - Connections [org.jkiss.dbeaver.ui.editors.connection 1.0.88.202301060755]
+2023-01-25 09:28:21.373 - Unrecognized Oracle client version at C:/GB_0900_KMG/dbms/oracle/resource/dbeaver/jre
+2023-01-25 09:28:21.571 - Auth model 'native' was replaced by 'oracle_native'
+2023-01-25 09:28:21.610 - Service 'org.jkiss.dbeaver.runtime.ui.UIServiceSecurity' not found
+2023-01-25 09:28:29.631 - Connect with 'jdbc:oracle:thin:@//localhost:1521/XE' (oracle_thin-185e6537dd2-7f718a9c707491a8)
+2023-01-25 09:28:29.631 - Execution context opened (jdbc:oracle:thin:@//localhost:1521/XE; Main; 3)
+2023-01-25 09:28:29.696 - Connected (oracle_thin-185e6537dd2-7f718a9c707491a8, Oracle JDBC driver [11.2.0.2.0])
+2023-01-25 09:28:29.767 - Execution context closed (jdbc:oracle:thin:@//localhost:1521/XE, 3)
+2023-01-25 09:28:29.768 - Disconnected (oracle_thin-185e6537dd2-7f718a9c707491a8)
+2023-01-25 09:28:43.618 - Connect with 'localhost' (oracle_thin-185e6535dfd-6cdd8f941e2f3e65)
+2023-01-25 09:28:43.623 - Execution context opened (localhost; Main; 4)
+2023-01-25 09:28:43.640 - Execution context opened (localhost; Metadata; 5)
+2023-01-25 09:28:43.683 - Connected (oracle_thin-185e6535dfd-6cdd8f941e2f3e65, Oracle JDBC driver [11.2.0.2.0])
+2023-01-25 09:28:43.708 - Execution context opened (localhost; SQLEditor <day04.sql>; 6)
+2023-01-25 09:28:48.226 - Execution context closed (localhost, 2)
+2023-01-25 09:29:13.056 - Execution context closed (localhost, 6)
+2023-01-25 09:29:13.444 - DBeaver is stopping
+2023-01-25 09:29:13.444 - Stop RMI server
+2023-01-25 09:29:13.449 - RMI controller has been stopped
+2023-01-25 09:29:13.450 - DBeaver shutdown completed

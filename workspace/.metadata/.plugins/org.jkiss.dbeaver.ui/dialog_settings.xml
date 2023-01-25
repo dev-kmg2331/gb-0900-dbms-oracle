@@ -2,7 +2,7 @@
 <section name="Workbench">
 	<section name="DBeaver.ActiveWizardDialog.ProjectCreateWizard">
 		<item key="DIALOG_X_ORIGIN" value="458"/>
-		<item key="DIALOG_Y_ORIGIN" value="1"/>
+		<item key="DIALOG_Y_ORIGIN" value="8"/>
 		<item key="DIALOG_WIDTH" value="525"/>
 		<item key="DIALOG_HEIGHT" value="607"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
@@ -51,7 +51,7 @@
 		<item key="showDetails" value="false"/>
 		<item key="DIALOG_X_ORIGIN" value="529"/>
 		<item key="DIALOG_Y_ORIGIN" value="276"/>
-		<item key="DIALOG_WIDTH" value="382"/>
+		<item key="DIALOG_WIDTH" value="474"/>
 		<item key="DIALOG_HEIGHT" value="194"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
@@ -109,6 +109,13 @@
 		<item key="DIALOG_Y_ORIGIN" value="145"/>
 		<item key="DIALOG_WIDTH" value="538"/>
 		<item key="DIALOG_HEIGHT" value="516"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="DBeaver.EditConnectionDialog">
+		<item key="DIALOG_X_ORIGIN" value="618"/>
+		<item key="DIALOG_Y_ORIGIN" value="195"/>
+		<item key="DIALOG_WIDTH" value="700"/>
+		<item key="DIALOG_HEIGHT" value="557"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>
