@@ -35,9 +35,9 @@
 		<column name="Name" visible="true" order="0" width="131"/>
 	</item>
 	<item id="Suggestion/NodeList/OracleTableColumn">
-		<column name="컬럼명" visible="true" order="0" width="109"/>
-		<column name="#" visible="true" order="1" width="27"/>
-		<column name="Type" visible="true" order="2" width="112"/>
+		<column name="컬럼명" visible="true" order="0" width="158"/>
+		<column name="#" visible="true" order="1" width="28"/>
+		<column name="Type" visible="true" order="2" width="105"/>
 		<column name="Type Mod" visible="false" order="3" width="100"/>
 		<column name="Not Null" visible="true" order="3" width="60"/>
 		<column name="디폴트" visible="true" order="4" width="50"/>
